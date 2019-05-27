@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="haar">
+      <UniqueIdentifier>{efda4b37-fd7f-4965-adb2-2e6d508ce4c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnaForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnaForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="haar\haarcascade_eye.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_eye_tree_eyeglasses.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_frontalface_alt.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_frontalface_alt_tree.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_frontalface_alt2.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_frontalface_default.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_fullbody.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_lefteye_2splits.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_lowerbody.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_eyepair_big.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_eyepair_small.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_leftear.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_lefteye.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_mouth.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_nose.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_rightear.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_righteye.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_mcs_upperbody.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_profileface.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_righteye_2splits.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_smile.xml">
+      <Filter>haar</Filter>
+    </Xml>
+    <Xml Include="haar\haarcascade_upperbody.xml">
+      <Filter>haar</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AnaForm.resx" />
+  </ItemGroup>
+</Project>
